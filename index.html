@@ -6,6 +6,7 @@
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src='lib/sketch.js'></script>
     <link href='http://fonts.googleapis.com/css?family=Yellowtail|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     <style type='text/css'>
       body { font-family: "Open Sans", sans-serif; background-color: #222222; padding:2%;}
@@ -35,6 +36,11 @@
 
       code { background: #222222; }
 
+     
+      .btn {
+        height:50px;
+        width:150px;
+      }
       .tools { margin-bottom: 10px; }
       .tools a {
         border: 1px solid black; height: 30px; line-height: 30px; padding: 0 10px; vertical-align: middle; text-align: center; text-decoration: none; display: inline-block; color: black; font-weight: bold;
@@ -71,7 +77,14 @@
           </script>
         </div>
       </article>
-
+      <div id="buttons">
+          <button type="button" class="btn btn-danger btn-lg">
+            <span class="glyphicon glyphicon-erase"></span>
+          </button>
+          <button type="button" class="btn btn-success btn-lg">
+            <span class="glyphicon glyphicon-check"></span>
+          </button>
+      </div>
      
 
       
